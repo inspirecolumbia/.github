@@ -1,12 +1,9 @@
-## Hi there 👋
+# Inspire Columbia
 
-<!--
+Inspire Columbia is a youth-run 501(c)(3) nonprofit in Columbia, South Carolina that builds community through educational, leadership, and storytelling events.
 
-**Here are some ideas to get you started:**
+This organization currently maintains three public project repositories:
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+- **[ic-website](https://github.com/inspirecolumbia/ic-website)** – the main Inspire Columbia website, including organization information, event highlights, and recruitment details.
+- **[tedxcongareevista](https://github.com/inspirecolumbia/tedxcongareevista)** – the official TEDxCongaree Vista event website with speaker, sponsor, news, and event information.
+- **[screwupnights](https://github.com/inspirecolumbia/screwupnights)** – the SCrewUp Nights event website focused on live storytelling about failure, lessons learned, and community growth.
