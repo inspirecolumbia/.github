@@ -1,0 +1,66 @@
+name: Bug report
+description: Report something that is not working as expected
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a problem. Please do not include passwords, API keys, applicant information, or other private data.
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you observed.
+      placeholder: Tell us what went wrong.
+    validations:
+      required: true
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: What did you expect to happen?
+      placeholder: Describe the expected behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to reproduce
+      description: List the smallest sequence of steps that reliably causes the problem.
+      placeholder: |
+        1. Go to ...
+        2. Click ...
+        3. Observe ...
+    validations:
+      required: true
+  - type: input
+    id: affected-page
+    attributes:
+      label: Affected page or URL
+      placeholder: https://example.com/page
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: Browser or device
+      description: Select every environment where you observed the problem.
+      multiple: true
+      options:
+        - Chrome
+        - Safari
+        - Firefox
+        - Microsoft Edge
+        - Mobile browser
+        - Not browser-specific
+        - Other
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact
+      description: Who is affected, and does the problem block an important task?
+      placeholder: Explain the effect on visitors, applicants, staff, or developers.
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or additional context
+      description: Drag in screenshots or add any other useful details. Remove private information first.
